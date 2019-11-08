@@ -1,11 +1,9 @@
 // Navigation code here
 header {
-    display:flex;
+    .flex(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items:center;
     background-color: @nav-bg;
-    padding: 2%;
+    padding: 1%;
 
     @media @phone {
         margin: 0 20%;
@@ -14,9 +12,8 @@ header {
 
 
     nav {
-    display:flex;
-    justify-content: space-between;
-    width: 40%;
+    .flex(space-between, center);
+    width: 28%;
     padding-top: 2%;
 
 

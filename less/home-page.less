@@ -2,6 +2,10 @@
 
 .home {
 
+  .main-header {
+    border-radius: 5px;
+  }
+
   .intro {
 
     h2 {
@@ -58,7 +62,13 @@
       }
 
       .btn {
-      }
+        .bttn(@ebony-clay, 100px, white);
+
+        &:hover {
+          background-color: white;
+          color: @ebony-clay;
+        }
+      }//ends btn
     }
 
     .walk-img {
