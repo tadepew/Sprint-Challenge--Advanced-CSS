@@ -1,1 +1,18 @@
 // Mixins Here
+.bttn(@bg-color, @size, @font-color){
+    display: block;
+    background-color: @bg-color;
+    margin: 2% 0;
+    cursor: pointer;
+    width: @size;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 8px;
+    color:@font-color;
+}
+
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
